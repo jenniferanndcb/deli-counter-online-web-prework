@@ -20,4 +20,5 @@ def now_serving (katz_deli)
   if katz_deli.empty? 
     puts "The line currently empty."
   else 
-    puts "Currently serving #{katz_deli.first}"
+    puts "Currently serving #{katz_deli.first}."
+    katz_deli.shift
