@@ -4,4 +4,7 @@ end
 
 def take_a_number (line, name)
   line.collect do |name| 
-    puts "Welcome, #{name}. You are number "
+    puts "Welcome, #{name}. You are number #{line} in line."
+  end
+end
+
