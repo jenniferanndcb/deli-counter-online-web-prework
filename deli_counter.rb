@@ -1,14 +1,13 @@
-def line (katz_deli)
-  if katz_deli = []
+
+def line(deli)
+  if deli.empty?
     puts "The line is currently empty."
-  else 
-    current_line = "The line is currently:" 
-      katz_deli.each_with_index(1) do |name, i|
-        current_line << "#{i}.#{name}"
-      end
+  else
+    current_line = "The line is currently:"
+    deli.each.with_index(1) do |name, i|
+      current_line << " #{i}. #{name}"
+    end
     puts current_line
   end
-end 
-
-
+end
 
